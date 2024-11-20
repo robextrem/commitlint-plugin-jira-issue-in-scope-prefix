@@ -1,20 +1,23 @@
 {
-  "name": "commitlint-plugin-jira-issue-in-scope",
-  "version": "0.0.2",
-  "description": "Rule requiring JIRA issue number in conventional commit scope",
-  "main": "index.js",
-  "keywords": [
-    "commitlint",
-    "commitlintplugin",
-    "conventional-commits"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/swisscat/commitlint-plugin-jira-issue-in-scope.git"
-  },
-  "author": "swisscat",
-  "license": "ISC",
-  "peerDependencies": {
-    "@commitlint/lint": ">=7.6.0"
+	"name": "commitlint-plugin-jira-issue-in-scope-prefix",
+	"version": "0.0.3",
+	"description": "A fork of the commitlint-plugin-jira-issue-in-scope with customizable JIRA issue prefixes",
+	"main": "index.js",
+	"keywords": [
+	  "commitlint",
+	  "commitlintplugin",
+	  "conventional-commits",
+	  "jira",
+	  "prefix"
+	],
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/robextrem/commitlint-plugin-jira-issue-in-scope.git"
+	},
+	"author": "robextrem",
+	"license": "ISC",
+	"peerDependencies": {
+	  "@commitlint/lint": ">=7.6.0"
+	}
   }
-}
+  
