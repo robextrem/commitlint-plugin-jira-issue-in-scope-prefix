@@ -25,7 +25,7 @@ This plugin adds the following rule:
 ```js
 module.exports = {
     extends: ['@commitlint/config-conventional'],
-    plugins: ['jira-issue-in-scope'],
+    plugins: ['jira-issue-in-scope-prefix'],
     rules: {
         // With a custom prefix
         'jira-issue-in-scope': [2, 'always', 'IBN'],
